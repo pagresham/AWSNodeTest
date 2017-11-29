@@ -10,6 +10,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/api', function(req, res) {
 	res.send("Hope you day is a real trip!");
-}
+})
 
 module.exports = router;
